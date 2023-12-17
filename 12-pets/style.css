@@ -1,0 +1,53 @@
+html,
+body,
+#root {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: LightSkyBlue;
+}
+
+.plotTitle > div {
+  font-family: Helvetica, Arial;
+  position: absolute;
+  background: #00000088;
+  color: white;
+  padding: 16px 32px;
+  white-space: nowrap;
+  overflow: hidden;
+  border-radius: 16px;
+  user-select: none;
+  font-size: 24px;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.number > div {
+  font-family: Helvetica, Arial;
+  position: absolute;
+  background: #00000088;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 18px;
+  line-height: 1.8;
+  text-align: center;
+}
+.referenceText > div {
+  font-family: Helvetica, Arial;
+  position: absolute;
+  background: #00000088;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 10px;
+  line-height: 1.6;
+  text-align: center;
+}
